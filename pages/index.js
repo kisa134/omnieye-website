@@ -50,28 +50,15 @@ export default function Home() {
         </motion.div>
       </div>
 
-      {/* About Section */}
-      <div className="py-24 px-6 text-center bg-[#0b0b25]">
-        <motion.h2
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.8 }}
-          className="text-3xl md:text-4xl font-bold text-white mb-4"
-        >
-          О нас
-        </motion.h2>
-        <p className="max-w-2xl mx-auto text-gray-400 text-lg">
-          OmniEye помогает трейдерам разбираться в рынках с помощью автоматизированных инсайтов, живых индикаторов и Edge Computing. Наш AI — это твоё преимущество.
-        </p>
-        <div className="mt-12">
-          <img
-            src="/our-mission-pixel.png"
-            alt="Pixel art about us"
-            className="mx-auto rounded-xl border border-cyan-600 shadow-xl"
-          />
-        </div>
-      </div>
+{/* About Section */}
+<div className="py-24 px-6 text-center bg-[#0b0b25]">
+  <img
+    src="/assets/about-us-pixel.png"
+    alt="О нас — OmniEye"
+    className="mx-auto rounded-xl border border-cyan-600 shadow-xl"
+  />
+</div>
+
 
       {/* Features Section */}
       <div id="features" className="max-w-7xl mx-auto py-20 px-6 grid grid-cols-1 md:grid-cols-3 gap-10">
